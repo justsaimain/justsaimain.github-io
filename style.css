@@ -61,6 +61,10 @@ body {
   text-decoration: none;
 }
 
+.name-text{
+  color: #e8d21e;
+}
+
 .blinking-text {
   animation: blinker 1s linear infinite;
   -webkit-animation: blinker 1s linear infinite;
