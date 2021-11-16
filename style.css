@@ -70,3 +70,13 @@ main {
         opacity: 0;
     }
 }
+
+.view-project {
+    text-decoration: none;
+    background-color: #e8d21e;
+    color: #212529;
+}
+
+.view-project span {
+    padding: 10px;
+}
