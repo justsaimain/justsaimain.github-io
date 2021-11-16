@@ -2,13 +2,13 @@ body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
     color: rgb(201, 201, 201);
-  }
-  
-  html {
+}
+
+html {
     height: -webkit-fill-available;
-  }
-  
-  main {
+}
+
+main {
     display: flex;
     flex-wrap: nowrap;
     height: 100vh;
@@ -16,62 +16,57 @@ body {
     max-height: 100vh;
     overflow-x: auto;
     scroll-behavior: smooth;
+}
 
-  }
+.material-icons {
+    color: white;
+    font-size: 25px !important;
+    cursor: pointer;
+}
 
-  .material-icons{
-      color: white;
-      font-size: 25px !important;
-      cursor: pointer;
-  }
-
-
-  .sidebar-div{
+.sidebar-div {
     /* box-shadow: 1px 0px 10px 1px rgba(0, 0, 0, 0.247); */
     border-right: 1px solid rgba(201, 201, 201, 0.103);
     position: absolute;
 }
 
-.sidebar-div .nav-link span{
+.sidebar-div .nav-link span {
     color: rgb(201, 201, 201);
 }
 
-.content-div{
+.content-div {
     margin-left: 4.5em;
 }
-.normal-text{
+.normal-text {
     color: rgb(201, 201, 201);
 }
 
-.avatar{
-  width: 100px;
-  height: 100px;
-} 
-
-.contact-div a{
-  text-decoration: none;
-  color: white;
+.avatar {
+    width: 100px;
+    height: 100px;
 }
 
-.hire-text , .hire-text:hover{
-  color: #e8d21e;
-  letter-spacing: 2px;
-  border-bottom: 2px solid #e8d21e;
-  text-transform: uppercase;
-  text-decoration: none;
+.contact-div a {
+    text-decoration: none;
+    color: white;
 }
 
-
+.hire-text,
+.hire-text:hover {
+    color: #e8d21e;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #e8d21e;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 
 .blinking-text {
-  animation: blinker 1s linear infinite;
-  -webkit-animation: blinker 1s linear infinite;
+    animation: blinker 1s linear infinite;
+    -webkit-animation: blinker 1s linear infinite;
 }
 
 @keyframes blinker {
-  50% {
-    opacity: 0;
-  }
+    50% {
+        opacity: 0;
+    }
 }
-
-  
